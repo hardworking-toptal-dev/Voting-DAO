@@ -8,9 +8,6 @@ One Social Noun is generated and auctioned every day, forever. All Social Noun a
 
 ## Changes to Nouns
 
-The changes to the contracts include adding ProofOfHumanityProxy contract. The interface should be enought, or it can also be moved from the ProofOfHumanityProxy.sol to the NounsDAOInterfaces.sol file. Feel free to recomend some changes.
-Also the NounsDAOLogic contract call the .isregistered function, if the proposal creator selected to use proof of humanity. 
-
 ## Development
 
 ### Install dependencies

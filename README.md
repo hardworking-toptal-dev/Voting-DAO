@@ -5,7 +5,7 @@ Most of them use ER20 Token based voting systems, and with Nouns DAO introducing
 One down side of the auction based NFT mint is the favoring of ETH whales, who can consistently outbid the competition. This leads to the possibility of a 51% attack.
 Nouns DAO solves with the veto system.
 Recently there have been different ideas of limiting the amount of tokens one person can obtain.<br/>
-Punk4156 on twitter:
+Punk4156 on twitter:<br/> 
 ![Screen](/screen.png?raw=true)
 <br/> As referenced by Punk4156, sybil resistant identity could solve this problem to some degree.
 
