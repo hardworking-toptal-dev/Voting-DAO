@@ -25,7 +25,6 @@ A description of the voting protocol can be found here: http://homepages.cs.ncl.
 
 This program presents an efficient realization of this protocol over the Ethereum network.
 How can I pick up this library and go?
-=====================================
 
 Video tutorial: https://youtu.be/5wch2_WhPvg
 
@@ -56,8 +55,7 @@ Some photos of the voting system can be found here:
 
 http://homepages.cs.ncl.ac.uk/patrick.mc-corry/openvotenetwork/
 
-What functions are available?
-==============================
+## What functions are available?
 
 The voting protocol leverages the following libraries:
 
@@ -119,7 +117,7 @@ ANY Phase.
 * Reset the entire election. Only Election Admin can call.
  * Reset()
 ## Changes to Nouns / Open Vote Network
-
+Merge of Open Vote Network and nous dao. An poc version.
 ## Development
 
 ### Install dependencies
