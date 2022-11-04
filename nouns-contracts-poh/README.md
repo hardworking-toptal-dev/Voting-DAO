@@ -6,9 +6,11 @@ Nouns are an experimental attempt to improve the formation of on-chain avatar co
 
 ## Changes to Nouns
 
-The changes to the contracts include adding ProofOfHumanityProxy contract. The interface should be enough, or it can also be moved from the ProofOfHumanityProxy.sol to the NounsDAOInterfaces.sol file. Feel free to recommend some changes. Also the NounsDAOLogic contract call the .isregistered function, if the proposal creator selected to use proof of humanity.
-
-## Development
+The changes to the contracts include adding ProofOfHumanityProxy contract. The interface should be enough, or it can also be moved from the ProofOfHumanityProxy.sol to the NounsDAOInterfaces.sol file. Feel free to recommend some changes.
+The NounsDAOLogic contract know calls the .isregistered function, if the proposal creator selected to use proof of humanity.
+There are 2 new parameters added:
+1. unit256 poh -> should proof of humanity be used? (made this an int to allow different poh systems in the future)
+2. ProofOfHumanityProxy -> contract of the Proof of humanity registery. (https://github.com/Proof-Of-Humanity/Proof-Of-Humanity)
 
 ### Install dependencies
 
