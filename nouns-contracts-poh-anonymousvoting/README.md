@@ -1,10 +1,9 @@
-# @nouns/contracts
+# Work in progress!!!!!
 
 ## Background
 
 Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as CryptoPunks have attempted to bootstrap digital community and identity,  Nouns attempt to bootstrap identity, community, governance and a treasury that can be used by the community for the creation of long-term value.
 
-One Social Noun is generated and auctioned every day, forever. All Social Noun artwork is stored and rendered on-chain. See more information at [socialnouns.wtf](https://socialnouns.wtf/).
 ## What is the Open Vote Network?
 The Open Vote Network (OV-net) is a 2-round decentralized voting protocol with the following attractive features
 
