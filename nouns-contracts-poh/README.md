@@ -4,12 +4,9 @@
 
 Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as CryptoPunks have attempted to bootstrap digital community and identity,  Nouns attempt to bootstrap identity, community, governance and a treasury that can be used by the community for the creation of long-term value.
 
-One Social Noun is generated and auctioned every day, forever. All Social Noun artwork is stored and rendered on-chain. See more information at [socialnouns.wtf](https://socialnouns.wtf/).
-
 ## Changes to Nouns
 
-The changes to the contracts include adding ProofOfHumanityProxy contract. The interface should be enought, or it can also be moved from the ProofOfHumanityProxy.sol to the NounsDAOInterfaces.sol file. Feel free to recomend some changes.
-Also the NounsDAOLogic contract call the .isregistered function, if the proposal creator selected to use proof of humanity. 
+The changes to the contracts include adding ProofOfHumanityProxy contract. The interface should be enough, or it can also be moved from the ProofOfHumanityProxy.sol to the NounsDAOInterfaces.sol file. Feel free to recommend some changes. Also the NounsDAOLogic contract call the .isregistered function, if the proposal creator selected to use proof of humanity.
 
 ## Development
 
