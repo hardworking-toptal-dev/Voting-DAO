@@ -33,12 +33,13 @@ Introducing Zero knowledge proofs and anonymous voting by two-round. In 2017 Pat
 We have a general dislike for strict rules and predefined systems, so we decided to make both features optional. This changes the creating and voting for proposals a little bit.
 The new flow of a proposal looks like this:
 ![flow](/flow.png?raw=true)
-There are two new questions the creator is being asked: <br/>
-Do you want to exclude everyone who has not verified themselves as humans? 
-Do you want to create a private proposal?
+There are two folders in this repo: <br/>
+- nouns-contracts-poh
+- nouns-contracts-poh-anonymousvoting (WIP)
 
-Creating a private proposal will also add one extra step, the registration phase. This is the key point of 2 phase anonymous voting.
-The implementation can be found in this github repo.
+The nouns-contracts-poh houses the implementation of sybil resistant identity system integration.
+The nouns-contracts-poh-anonymousvoting houses the merge of Anonymous voting by Patrick McCorry and the nouns daologic.
+There are a lot of bad design choices, will keep fixing them in the future.
 
 ## Problems
 1. There are not many sybil resistance identity systems that are in wide use.<br/>
